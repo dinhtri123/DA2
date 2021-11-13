@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    width:100%;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+@mixin  display($justify, $align) {
+    display:flex;
+    justify-content: $justify;
+    align-items: $align;
+}
